@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="main_box">
+		<div class="stage" id="box">
+			<!-- 上边盒子 -->
+			<div class="up_box">
+				<!-- 左边选择区 -->
+				<div class="nav">
+					<div class="sunshine">
+						<div class="sun_icon"></div>
+						<span>100</span>
+					</div>
+					<table class="plants_S">
+						<tr>
+							<td>
+								<img src="image/wdss.gif">
+								<span></span>
+							</td>
+								
+							<td>
+								<img src="image/jgq.gif">
+								<span></span>
+							</td>
+							<td>
+								<img src="image/sunflowerCard.png">
+								<span></span>
+							</td>
+							<td><span>充</span></td>
+							<td><span>钱</span></td>
+							<td><span>才</span></td>
+							<td><span>给</span></td>
+							<td><span>用</span></td>
+						</tr>
+					</table>
+					<div class="shovel">
+						<img src="image/shovel.png">
+					</div>
+				</div>
+
+				<!-- 右边菜单 -->
+				<div class="R_menu">
+					<span>menu</span>
+				</div>
+			</div>
+
+			<!-- 下边盒子 -->
+			<div class="down_box">
+				<table>
+					<tr>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+						<td><span></span></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<!-- <div class="scene1">
+			<span></span>
+		</div> -->
+	</div>
+
+	<audio src="audio/smooth.mp3" id="smooth"></audio>
+	<audio src="audio/zhongzhi.mp3" id="zhongzhi"></audio>
+	<audio src="audio/jingbao2.mp3" id="jingbao"></audio>
+	<audio src="audio/click.ogg" id="click"></audio>
+	<audio src="audio/eat.ogg" id="eat" loop="loop"></audio>
+	<audio src="audio/xuanze.mp3" id="xuanze"></audio>
+	<audio src="audio/jizhong.mp3" id="jizhong"></audio>
+	<audio src="audio/pen.mp3" id="pen"></audio>
+	<audio src="audio/Mmiusic.mp3" id="Mmusic" loop="loop"></audio>
+	<audio src="audio/no.ogg" id="no"></audio>
+
+	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="js/underscore-min.js"></script>
+	<script type="text/javascript" src="js/Plant_json.js"></script>
+	<script type="text/javascript" src="js/Game.js"></script>
+	<script type="text/javascript" src="js/Plant.js"></script>
+	<script type="text/javascript" src="js/Zombie.js"></script>
+	<script type="text/javascript" src="js/Bullet.js"></script>
+	<script type="text/javascript" src="js/Sun.js"></script>
+	<script type="text/javascript" src="js/Sunflower.js"></script>
+	<script type="text/javascript" src="js/GameOver.js"></script>
+	<script type="text/javascript" src="js/Scene1.js"></script>
+	<script type="text/javascript" src="js/Scene2.js"></script>
+	<script type="text/javascript" src="js/Other.js"></script>
+	<script type="text/javascript" src="js/Controller.js"></script>
+	<script type="text/javascript">
+		var game = new Game()
+		new Controller()
+	</script>
+</body>
+</html>
