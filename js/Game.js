@@ -160,7 +160,7 @@ Game.prototype.start = function() {
 
 		// 让僵尸移动
 		for (var i = 0; i < arrs.length; i++) {
-			if (self.f % 50 == 0) {
+			if (self.f % 10 == 0) {
 				// 更新僵尸位置
 				arrs[i].update()
 					// 碰撞检测
